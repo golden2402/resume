@@ -1,0 +1,57 @@
+body {
+  /* font-family: 'Public Sans', Arial, Helvetica, sans-serif; */
+  overflow: hidden;
+}
+
+:root {
+  --header-margin: 0.4em
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: var(--header-margin) 0;
+}
+
+p,
+ul {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+.intro {
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 0;
+}
+
+.section {
+  margin-left: 10px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+
+.duo {
+  display: flex;
+}
+
+.duo .info {
+  flex: 1;
+  text-align: right;
+}
